@@ -1,0 +1,35 @@
+.kanban-card {
+  background-color: var(--card-color);
+  border-radius: 3px;
+  box-shadow: 0px 2px var(--card-box-shadow);
+  margin-inline: auto;
+  padding: 0.5rem;
+  padding-bottom: 0.4rem;
+  color: var(--text-color);
+  margin-bottom: 10px;
+  max-width: 350px; /* Set a maximum width to limit the card's size */
+  width: 300px; /* Allow the card to adjust to content width */
+  height: auto; /* Allow the card to adjust to content height */
+}
+
+.card-body {
+  display: flex;
+  flex-wrap: wrap; /* Allow content to wrap within the card */
+  align-items: center;
+}
+
+.icon {
+  width: 20px; /* Adjust the size as needed */
+  height: 20px;
+  margin-right: 5px; /* Add spacing between icon and text */
+}
+
+.user-icon::before {
+  content: "\1F464"; /* Unicode character for a user icon */
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+.tag-icon::before {
+  content: "\1F517"; /* Unicode character for a tag icon */
+  font-size: 20px; /* Adjust the font size as needed */
+}

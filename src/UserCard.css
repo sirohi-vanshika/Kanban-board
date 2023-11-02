@@ -1,0 +1,34 @@
+/* User Column Styles */
+.kanban-user-column {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f0f0f0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.kanban-user-column h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* User Card Styles */
+.kanban-user-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.kanban-user-card h4 {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.kanban-user-card p {
+  font-size: 14px;
+  margin: 5px 0;
+}

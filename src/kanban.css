@@ -1,0 +1,54 @@
+/* kanban.css */
+
+.kanban-app {
+  margin: 20px;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  /* Your linear gradient background */
+  background: linear-gradient(180deg, #e6e6e6, #ffffff);
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.kanban-header {
+  text-align: center;
+  background-color: #007acc;
+  color: #fff;
+  padding: 10px;
+}
+
+.kanban-controls {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.kanban-board {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.kanban-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+
+  width: 200px;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.kanban-card-content {
+  max-height: 100px;
+  overflow-y: auto;
+}
+.kanban-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
